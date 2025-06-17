@@ -24,8 +24,8 @@ export default function Home() {
   };
   // checks input toggle box
   const toggleCheckbox = (index1) => {
-    setinputcheckbox((prev) =>
-      prev.map((val, ind) => (ind === index1 ? !val : val))
+    setinputcheckbox((toggllll) =>
+      toggllll.map((val, ind) => (ind === index1 ? !val : val))
     );
   };
   // reset deletsteindex
@@ -72,7 +72,7 @@ export default function Home() {
       <ul className="ml-[36%] mt-[2%] list-none">
         {storeinput.map((value1, index1) => (
           <li
-            className={`text-white ${
+            className={`text-black ${
               inputcheckbox[index1] ? "line-through" : ""
             }`}
             key={index1}
